@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1474776452}
-  m_IndirectSpecularColor: {r: 0.36459607, g: 0.34788883, b: 0.35074872, a: 1}
+  m_IndirectSpecularColor: {r: 0.36459947, g: 0.34789008, b: 0.3507475, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -28525,6 +28525,10 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 48
       objectReference: {fileID: 0}
+    - target: {fileID: 11400020, guid: 2169821f0567671499a5c10104c69c24, type: 2}
+      propertyPath: controlStyle
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2169821f0567671499a5c10104c69c24, type: 2}
   m_IsPrefabParent: 0
@@ -29953,6 +29957,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 891426526}
         m_MethodName: Switch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1096838957}
+        m_MethodName: ClickSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -34427,6 +34442,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1096838957}
         m_MethodName: List
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1096838957}
+        m_MethodName: ClickSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -41873,6 +41899,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1096838957}
+        m_MethodName: ClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1244922805
@@ -41926,6 +41963,23 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1096838957}
           m_MethodName: Pause
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1096838957}
+          m_MethodName: ClickSound
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -59788,8 +59842,8 @@ MonoBehaviour:
   sounds:
   - name: Theme
     clip: {fileID: 8300000, guid: a596a7329b8a241b1a052687a3672afc, type: 3}
-    volume: 1
-    pitch: 3
+    volume: 0.4
+    pitch: 1.5
     loop: 1
     source: {fileID: 0}
   - name: Hit
@@ -60773,8 +60827,8 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1866403520}
-  m_LocalRotation: {x: 0.041021433, y: 0.00000008940696, z: -0.000000009313225, w: 0.99915826}
-  m_LocalPosition: {x: -0, y: -0.31, z: -0.08}
+  m_LocalRotation: {x: 0.06865324, y: 0.04845181, z: 0.0006433539, w: 0.9964632}
+  m_LocalPosition: {x: -0.13127111, y: -0.2919626, z: -0.06794109}
   m_LocalScale: {x: 0.86007255, y: 1, z: 1}
   m_Children:
   - {fileID: 1244589970}
@@ -60789,7 +60843,7 @@ Transform:
   - {fileID: 1731572360}
   m_Father: {fileID: 740740235}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 4.702, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 7.8600006, y: 5.5990005, z: 0.45900002}
 --- !u!95 &1866403522
 Animator:
   serializedVersion: 3
