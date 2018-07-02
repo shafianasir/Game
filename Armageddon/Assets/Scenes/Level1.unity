@@ -8854,15 +8854,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_LocalScale.x
@@ -8986,11 +8986,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400020, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: Xsensitivity
-      value: 15
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 11400020, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: Ysensitivity
-      value: 15
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 11400014, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: axesToUse
