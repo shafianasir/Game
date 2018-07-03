@@ -47,10 +47,10 @@ public class PlayMenu : MonoBehaviour {
         }
     }
 
-    public void NewGame()
+    public void Reset()
     {
         PlayerPrefs.DeleteAll();
-        Debug.Log("New Game");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Debug.Log("Reset");
+        SceneManager.LoadScene("MainMenu");
     }
 }

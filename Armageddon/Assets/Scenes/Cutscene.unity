@@ -313,13 +313,13 @@ MonoBehaviour:
   - name: Theme
     clip: {fileID: 8300000, guid: a596a7329b8a241b1a052687a3672afc, type: 3}
     volume: 1
-    pitch: 3
+    pitch: 1.5
     loop: 1
     source: {fileID: 0}
   - name: Hit
     clip: {fileID: 8300000, guid: 569690f8d57728348becbc482dcebd11, type: 3}
     volume: 1
-    pitch: 3
+    pitch: 2
     loop: 0
     source: {fileID: 0}
   - name: Collect

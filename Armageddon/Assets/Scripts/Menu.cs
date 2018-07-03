@@ -7,7 +7,6 @@ public class Menu : MonoBehaviour {
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
     public GameObject listImage;
-    //public AudioSource music;
     public Slider musicVolume;
 
     private void Update()

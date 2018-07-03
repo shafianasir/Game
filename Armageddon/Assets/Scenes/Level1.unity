@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1474776452}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.4964127, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -8953,11 +8953,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400020, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: Xsensitivity
-      value: 30
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 11400020, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: Ysensitivity
-      value: 30
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 11400014, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: axesToUse
@@ -61501,9 +61501,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 406702240}
+  - {fileID: 1988218858}
   - {fileID: 1352757813}
   - {fileID: 833071418}
-  - {fileID: 1988218858}
   m_Father: {fileID: 537936479}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -67947,7 +67947,7 @@ RectTransform:
   m_Children:
   - {fileID: 1043826640}
   m_Father: {fileID: 1804649085}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 10.529, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
