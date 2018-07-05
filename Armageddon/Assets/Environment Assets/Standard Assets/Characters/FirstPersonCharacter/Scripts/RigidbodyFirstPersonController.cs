@@ -89,6 +89,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private Vector3 m_GroundContactNormal;
         private bool m_Jump, m_PreviouslyGrounded, m_Jumping, m_IsGrounded;
 
+		[HideInInspector]
+		public Vector3 moveaxis;
+		[HideInInspector]
+		public bool jumpaixs;
 
         public Vector3 Velocity
         {
@@ -130,7 +134,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             RotateView();
 
-            if (CrossPlatformInputManager.GetButtonDown("Jump") && !m_Jump)
+			if (jumpaixs && !m_Jump)
             {
                 m_Jump = true;
             }
@@ -214,8 +218,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             
             Vector2 input = new Vector2
                 {
-                    x = CrossPlatformInputManager.GetAxis("Horizontal"),
-                    y = CrossPlatformInputManager.GetAxis("Vertical")
+				x = moveaxis.x,
+				y = moveaxis.y
                 };
 			movementSettings.UpdateDesiredTargetSpeed(input);
             return input;
