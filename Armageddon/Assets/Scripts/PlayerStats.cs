@@ -50,18 +50,12 @@ public class PlayerStats : MonoBehaviour {
         {
             RetryUI.SetActive(true);
             Time.timeScale = 0f;
-
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
         }
         else
         {
             Debug.Log("You lost all lives! Restart Game");
             FailUI.SetActive(true);
             Time.timeScale = 0f;
-            
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
         }
     }
 

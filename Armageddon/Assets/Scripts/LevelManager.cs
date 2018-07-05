@@ -8,7 +8,7 @@ public class LevelManager : MonoBehaviour {
     public GameObject endLevelUI;
     public Save saveGame;
     public GameObject text;
-    
+    public Text itemsLeftText;
     public Transform respawnTransform;
 
     public int levelNo;
@@ -18,7 +18,6 @@ public class LevelManager : MonoBehaviour {
     private void Start()
 	{
         Time.timeScale = 1f;
-        //respawnTransform.position = transform.position;
         text.SetActive(true);
     }
 
@@ -39,6 +38,10 @@ public class LevelManager : MonoBehaviour {
     public void IngredientCollected()
     {
         itemsToCollect--;
+        int l = itemsToCollect;
+        string str = l.ToString();
+        itemsLeftText.text = str;
+
         if (itemsToCollect <= 0)
         {
             if (zombiesLeft <= 0)
@@ -63,10 +66,5 @@ public class LevelManager : MonoBehaviour {
 
         endLevelUI.SetActive(true);
         Time.timeScale = 0f;
-        //GameObject canvas = GameObject.Find("Canvas");
-        //canvas.SetActive(false);
-
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
     }
 }
