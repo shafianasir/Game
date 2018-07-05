@@ -13176,7 +13176,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &369315669
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13192,8 +13192,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 15.7, y: 32.9}
-  m_SizeDelta: {x: 506.6, y: 327.9}
+  m_AnchoredPosition: {x: 1.1, y: 23.9}
+  m_SizeDelta: {x: 477.4, y: 345.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369315670
 MonoBehaviour:
@@ -13214,7 +13214,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 8400000, guid: 48e2636957d707b45a3ecf158c865d30, type: 2}
+  m_Texture: {fileID: 8400000, guid: 7e4b55d0043983241bd5414bde1aedcb, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -26335,7 +26335,7 @@ VideoPlayer:
   m_VideoClip: {fileID: 32900000, guid: 7bc995a3705b3444bb5ead5d6e525598, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 48e2636957d707b45a3ecf158c865d30, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 7e4b55d0043983241bd5414bde1aedcb, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
