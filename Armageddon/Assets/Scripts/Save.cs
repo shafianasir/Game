@@ -31,6 +31,5 @@ public class Save : MonoBehaviour {
             Debug.Log("Saving..." + level);
             PlayerPrefs.SetString("L5", "completed");
         }
-        //PlayerPrefs.SetInt("Level", levelManager.levelNo);
     }
 }

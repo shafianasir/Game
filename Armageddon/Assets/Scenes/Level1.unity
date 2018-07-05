@@ -6054,7 +6054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IsWalking: 0
-  m_WalkSpeed: 6
+  m_WalkSpeed: 4
   m_RunSpeed: 10
   m_RunstepLenghten: 0.7
   m_JumpSpeed: 10
@@ -6094,7 +6094,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  m_UseHeadBob: 1
+  m_UseHeadBob: 0
   m_HeadBob:
     HorizontalBobRange: 0.1
     VerticalBobRange: 0.1
@@ -8821,15 +8821,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_LocalScale.x
@@ -8845,19 +8845,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400010, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -114.03998
+      value: -176.33
       objectReference: {fileID: 0}
     - target: {fileID: 22400010, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 243.71997
+      value: 352.65
       objectReference: {fileID: 0}
     - target: {fileID: 22400010, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 85.35
+      value: 91.9
       objectReference: {fileID: 0}
     - target: {fileID: 22400010, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 171.1
+      value: 182.8
       objectReference: {fileID: 0}
     - target: {fileID: 22400006, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -8869,19 +8869,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400008, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 114.05994
+      value: 168.69
       objectReference: {fileID: 0}
     - target: {fileID: 22400008, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 85.34999
+      value: 91.55
       objectReference: {fileID: 0}
     - target: {fileID: 22400008, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 243.68
+      value: 352.93
       objectReference: {fileID: 0}
     - target: {fileID: 22400008, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 171.1
+      value: 183.5
       objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: m_Text
@@ -8952,12 +8952,8 @@ Prefab:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400020, guid: 2169821f0567671499a5c10104c69c24, type: 2}
-      propertyPath: Xsensitivity
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400020, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: Ysensitivity
-      value: 75
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 11400014, guid: 2169821f0567671499a5c10104c69c24, type: 2}
       propertyPath: axesToUse
@@ -8971,6 +8967,10 @@ Prefab:
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 11400020, guid: 2169821f0567671499a5c10104c69c24, type: 2}
+      propertyPath: Xsensitivity
+      value: 1000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2169821f0567671499a5c10104c69c24, type: 2}
   m_IsPrefabParent: 0
@@ -46788,6 +46788,12 @@ MonoBehaviour:
     pitch: 3
     loop: 0
     source: {fileID: 0}
+  - name: PLAY
+    clip: {fileID: 8300000, guid: b3d5626c4b111c0488daab563edb210a, type: 3}
+    volume: 1
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
 --- !u!4 &1357998126
 Transform:
   m_ObjectHideFlags: 0
@@ -66713,7 +66719,7 @@ Prefab:
     - target: {fileID: 13700000, guid: ef02e616f26b3ac43a0267dcd5ad78f6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e5d6f913c6116a542b20b94db29ff6f2, type: 2}
+      objectReference: {fileID: 2100000, guid: bbf63305609c552469f04ca7080d9550, type: 2}
     m_RemovedComponents:
     - {fileID: 9500000, guid: ef02e616f26b3ac43a0267dcd5ad78f6, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: ef02e616f26b3ac43a0267dcd5ad78f6, type: 3}

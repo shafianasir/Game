@@ -19,9 +19,6 @@ public class WeaponCollect : MonoBehaviour {
             weaponText.SetActive(true);
             weaponButton.SetActive(true);
 			weaponimage.enabled = true;
-            //GameObject weaponUI = GameObject.Find("WeaponButton");
-            //weaponUI.GetComponent<Button>().interactable = true;
-
         }
     }
 }
