@@ -17,7 +17,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public bool lockCursor = true;
 
 		[HideInInspector]
-		public Vector2 lookaxis;
+		public Vector2 lookAxis;
 
         private Quaternion m_CharacterTargetRot;
         private Quaternion m_CameraTargetRot;
@@ -32,8 +32,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         public void LookRotation(Transform character, Transform camera)
         {
-			float yRot = lookaxis.x * XSensitivity;
-			float xRot = lookaxis.y * YSensitivity;
+			float yRot = lookAxis.x * XSensitivity;
+			float xRot = lookAxis.y * YSensitivity;
 
             m_CharacterTargetRot *= Quaternion.Euler (0f, yRot, 0f);
             m_CameraTargetRot *= Quaternion.Euler (-xRot, 0f, 0f);
