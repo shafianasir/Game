@@ -23,9 +23,7 @@ public class EnemyHealth : MonoBehaviour {
     void Dead()
     {
         levelManager.ZombieKilled();
-    //    Audiomanager.Instance.Play("zombie");
         Destroy(gameObject);
-        //or disable enemy script
     }
 }
 
