@@ -66526,7 +66526,7 @@ MonoBehaviour:
   endLevelUI: {fileID: 1337356374}
   saveGame: {fileID: 1952446594}
   text: {fileID: 453444763}
-  itemsLeftText: {fileID: 0}
+  itemsLeftText: {fileID: 702564170}
   respawnTransform: {fileID: 142609920}
   levelNo: 1
   itemsToCollect: 3
