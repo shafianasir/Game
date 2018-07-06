@@ -10,8 +10,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public float XSensitivity = 0.025f;
         public float YSensitivity = 0.025f;
         public bool clampVerticalRotation = true;
-        public float MinimumX = -90F;
-        public float MaximumX = 90F;
+        public float MinimumX = -60F;
+        public float MaximumX = 60F;
         public bool smooth;
         public float smoothTime = 5f;
         public bool lockCursor = true;
@@ -33,10 +33,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void LookRotation(Transform character, Transform camera)
         {
 			float yRot = lookAxis.x * XSensitivity;
-			float xRot = lookAxis.y * YSensitivity;
+			//float xRot = lookAxis.y * YSensitivity;
 
             m_CharacterTargetRot *= Quaternion.Euler (0f, yRot, 0f);
-            m_CameraTargetRot *= Quaternion.Euler (-xRot, 0f, 0f);
+            //m_CameraTargetRot *= Quaternion.Euler (-xRot, 0f, 0f);
 
             if(clampVerticalRotation)
                 m_CameraTargetRot = ClampRotationAroundXAxis (m_CameraTargetRot);
