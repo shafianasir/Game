@@ -15921,7 +15921,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 8400000, guid: c76d578f212f0bf46abcdeaf8735baa6, type: 2}
+  m_Texture: {fileID: 8400000, guid: 48e2636957d707b45a3ecf158c865d30, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -35578,7 +35578,7 @@ VideoPlayer:
   m_VideoClip: {fileID: 32900000, guid: 92242992fbd45e842922b91996ff1d77, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: c76d578f212f0bf46abcdeaf8735baa6, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 48e2636957d707b45a3ecf158c865d30, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
@@ -35595,7 +35595,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
 --- !u!1 &925763690 stripped
@@ -58020,7 +58020,7 @@ MonoBehaviour:
     MaximumX: 90
     smooth: 0
     smoothTime: 5
-    lockCursor: 1
+    lockCursor: 0
     lookAxis: {x: 0, y: 0}
   m_UseFovKick: 1
   m_FovKick:
