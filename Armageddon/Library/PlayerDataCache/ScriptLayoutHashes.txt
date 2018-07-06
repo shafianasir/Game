@@ -83,6 +83,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+adc2b5e9650e0ef6747b63f975456798 Assembly-CSharp.dll:.JoystickControls
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityStandardAssets.Vehicles.Ball.BallUserControl
 6c156248975c65e334daa4cbfba64bd1 Assembly-CSharp.dll:UnityStandardAssets.Utility.TimedObjectActivator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -194,4 +195,3 @@ abd0c57422371ccf2a5e949390c88c58 Assembly-CSharp.dll:.UIAppear
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UIManager
 b7171e5c0d0c9c46503e99e03b81e693 Assembly-CSharp.dll:.WeaponCollect
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-adc2b5e9650e0ef6747b63f975456798 Assembly-CSharp.dll:.JoystickControls
